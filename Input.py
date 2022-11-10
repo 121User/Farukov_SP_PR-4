@@ -24,16 +24,6 @@ def resCalc(que):
 
             writing(num, deg, res, sumD)
 
-
-# # Вывод числа, степени и результата вычисления в скрипте Output
-# def resOutput(conn):
-#
-#     res: int = number ** degrees
-#
-#     stringRes = f'{number}^{degrees} = {res}'
-#     return stringRes
-
-
 try:
     if __name__ == '__main__':
         queue: Queue = multiprocessing.Manager().Queue() # Очередь для расчетов

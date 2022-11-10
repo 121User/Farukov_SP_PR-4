@@ -15,7 +15,7 @@ try:
                 tFile = tFile.__round__()
                 dateFile: datetime = datetime.datetime.fromtimestamp(tFile)
 
-                res, _ = file.readline().split(' - ')
+                res, _ = file.readline().split(' : ')
 
                 print(f'{dateFile} >> {res}')
 except ValueError:
